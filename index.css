@@ -1,0 +1,151 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+header{
+    background: linear-gradient(89.99deg, #2B3990 37.03%, #F48D10 99.99%);
+    height: 22px;
+}
+body{
+    background-color: rgb(230, 174, 174);
+}
+.navbar{
+    display: flex;
+    padding-top: 3px ;
+    align-items: center;
+    padding-bottom: 5px;
+    background-color: white;
+    justify-content: space-around;
+}
+
+.navbar_barnd{
+    display: flex;
+
+    font-size: 1rem;
+    font-weight: 600;
+}
+.k3{
+    color: #F7941D;
+
+}
+.study{
+    color: #2B3990;
+
+}
+.navbar_links{
+    font-family: sans-serif;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar_link{
+    list-style: none;
+}
+
+.link{
+    
+    text-decoration: none;
+    color: black;
+    padding: 1em;
+    font-size: 8.5px;
+}
+.link_button{
+    text-decoration: none;
+    padding: 2.7px 15px 2.7px 15px;
+    font-size: 8px;   
+    text-transform: capitalize;
+    background-color: #2B3990;
+    color: white;
+    border-radius: 3.9px;
+}
+
+.hero{
+    background: linear-gradient(180deg, #A3AFFB 51.02%, #D7DDFF 100%);
+    height: calc(100vh - 49px);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.hero_form{
+    margin-left: auto;
+    float: right;
+    box-shadow: 0px 0px 14px 1px #D7DDFF;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 130px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.form_heading{
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.form_input{
+    margin-top: 10px;
+    background: #D7DDFF;
+    border: none;
+    padding: 5px;
+    width: 85%;
+    font-size: 8px;
+    outline: none;
+    border-radius: 5px;
+}
+.online{
+    color: #2B3990;
+    font-size: 1.7rem;
+    letter-spacing: -0.2px;
+}
+.meet{
+    font-size: 12px;
+    line-height: 15px;
+}
+.from_btn{
+    border: none;
+    padding: 5px;
+    font-size: 8px;
+    outline: none;
+    margin-top: 10px;
+    width: 90%;
+    color: white;
+    background-color: #2B3990;
+    border-radius: 5px;
+}
+.form_msg{
+    background: #D7DDFF;
+    border: none;
+    padding: 5px;
+    font-size: 8px;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    min-height: 50px;
+    resize: vertical;
+    width: 87%;
+}
+
+.hero_data{
+    width: 50%;
+    margin-left: auto;
+    float: right;
+}
+
+@media screen and (max-width: 480px) {
+    header{
+        display: none;
+    }
+    .hero{
+        height: calc(100vh - 27.4px);
+    }
+}
